@@ -1,0 +1,19 @@
+$wrapper-border: gray;
+$wrapper-bg-over: #f0f0f0;
+
+.wrapper {
+  min-height: 300px;
+  border: 2px dashed $wrapper-border;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+
+  &.wrapperOver {
+    background-color: $wrapper-bg-over;
+  }
+
+  .inputItem {
+    margin-bottom: 8px;
+  }
+}

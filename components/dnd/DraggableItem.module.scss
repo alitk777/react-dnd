@@ -1,0 +1,17 @@
+$item-background: #f9f9f9;
+$item-border: #ccc;
+
+.item {
+  cursor: grab;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: $item-background;
+  border: 1px solid $item-border;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: lighten($item-background, 5%);
+  }
+}
